@@ -74,7 +74,7 @@ public class ScribblerInternalFrame extends JInternalFrame {
 	static final int xOffset = 30, yOffset = 30;
 
 	public ScribblerInternalFrame() {
-		super("Untitled-" + (ScribbleShop.openFrameCount++), false, true, true,
+		super("Untitled-" + (ScribbleShop.openFrameCount++), true, true, true,
 				true);
 		setLocation(xOffset * ScribbleShop.openFrameCount, yOffset
 				* ScribbleShop.openFrameCount);
